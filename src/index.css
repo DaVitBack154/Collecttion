@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*animation */
+@keyframes float {
+  0% {
+    transform: translateY(20);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(20);
+  }
+}
+
+.float-animation {
+  animation: float 2s ease-in-out infinite;
+}
